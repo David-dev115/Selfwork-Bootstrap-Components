@@ -1,0 +1,285 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Selfwork Bootstrap Grid System</title>
+  
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  
+  <!-- Bootstrap icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  
+  <!-- CSS -->
+  <link rel="stylesheet" href="./style.css">
+  
+</head>
+
+
+<body>
+  
+  <!-- navbar -->
+  <nav class="navbar navbar-expand-lg bg-warning position-fixed top-0 w-100 z-1">
+    <div class="container-fluid">
+      <a class="navbar-brand img-logo" href="#"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active a-nav" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item"><a class="nav-link a-nav" href="#">recensioni</a></li>
+          <li class="nav-item"><a class="nav-link a-nav" href="#">top film</a></li>
+          <li class="nav-item"><a class="nav-link a-nav" href="#">flop film</a></li>
+          <li class="nav-item"><a class="nav-link a-nav" href="#">serie tv</a></li>
+          <li class="nav-item"><a class="nav-link a-nav" href="#">in uscita</a></li>
+          <li class="nav-item"><a class="nav-link a-nav" href="#">contattaci</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  
+  
+  <!-- header -->
+  <header class="container-fluid">
+    <div class="row vh-100 align-items-center">
+      <div class="col-12">
+        <h1 class="text-center text-dark titolo">CineBlog di David</h1>
+      </div>
+    </div>
+  </header>
+  
+  
+  <!-- section cart -->
+  <section class="container z-0 ">
+    <div class="row justify-content-around">
+      <div class="col-12 text-center my-5">
+        <h2>da vedere assolutamente...</h2>
+      </div>
+      <div class="col-12 col-md-3 d-flex justify-content-center align-items-center ">
+        <div class="card bg-warning" style="width: 18rem;">
+          <img src="./media/art-1.jpg" class="card-img-top" alt="copertina Pulp Fiction">
+          <div class="card-body schede-cst text-center">
+            <h5 class="card-title">Pulp Fiction</h5>
+            <p class="card-text">Quattro storie di violenza s'intersecano in una struttura apparentemente circolare che va avanti e indietro nel tempo. Il film ha ottenuto 7 candidature e vinto un premio ai Premi Oscar, Il film è stato premiato al Festival di Cannes, 6 candidature e vinto un premio ai Golden Globes, 3 candidature a SAG Awards, In Italia al Box Office Pulp Fiction ha incassato 4,8 milioni di euro ..</p>
+            <a href="#" class="btn btn-outline-danger">SCHEDA COMPLETA FILM</a>
+          </div>
+        </div>
+        
+      </div>
+      <div class="col-12 col-md-3 d-flex justify-content-center align-items-center">
+        <div class="card bg-warning" style="width: 18rem;">
+          <img src="./media/art-2.jpg" class="card-img-top" alt="copertina The Departed">
+          <div class="card-body schede-cst text-center" >
+            <h5 class="card-title">The Departed</h5>
+            <p class="card-text">Martin Scorsese trasforma un'opera del cinema di Hong Kong (Infernal Affairs, di Andrew Lau) in un poliziesco ambientato a Boston nei nostri giorni. Esempio compiuto di un film fatto da chi ancora ha passione e voglia di sperimentare. Il film ha ottenuto 5 candidature e vinto 4 Premi Oscar, 5 candidature e vinto un premio ai Golden Globes, 7 candidature e vinto un premio ai Critics Choice Award, 2 candidature a SAG Awards, In Italia al Box Office The Departed - Il bene e il male ha incassato 9,4 milioni di euro.</p>
+            <a href="#" class="btn btn-outline-danger">SCHEDA COMPLETA FILM</a>
+          </div>
+        </div>
+        
+      </div>
+      <div class="col-12 col-md-3 d-flex justify-content-center align-items-center">
+        <div class="card bg-warning" style="width: 18rem;">
+          <img src="./media/art-3.jpg" class="card-img-top" alt="copertina Fight club">
+          <div class="card-body schede-cst text-center">
+            <h5 class="card-title">Fight Club</h5>
+            <p class="card-text">Picchiarsi per stare meglio: questo l'assunto del film. Dopo il successo, in parte inaspettato, di Seven, Fincher ripercorre e perfeziona la violenza. Il film ha ottenuto 1 candidatura a Premi Oscar, In Italia al Box Office Fight Club ha incassato 698 .</p>
+            <a href="#" class="btn btn-outline-danger">SCHEDA COMPLETA FILM</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  
+  <!-- Carousel -->
+  
+  <section class="container my-5">
+    <div class="row">
+      <div class="col-12">
+        
+        <div id="carouselExample" class="carousel slide">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="./media/img Carosello/a.jpg" class="d-block w-100 img-fluid img-car" alt="copertina Pulp Fiction">
+            </div>
+            <div class="carousel-item">
+              <img src="./media/img Carosello/b.jpg" class="d-block w-100 img-fluid" alt="copertina The Departed">
+            </div>
+            <div class="carousel-item">
+              <img src="./media/img Carosello/c.jpg" class="d-block w-100 img-fluid" alt="copertina Fight club">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        
+        
+      </div>
+    </div>
+    
+  </section>
+  
+  
+  
+  
+  <!-- form lavora con noi  -->
+  <section class="container">
+    <div class="row justify-content-center">
+      <div class="col-12 text-center my-5">
+        <h2>lavora con noi</h2>
+      </div>
+      <div class="col-12 col-md-4">
+        <form class="bg-warning rounded-5 p-5">
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Password</label>
+            <input type="password" class="form-control" id="exampleInputPassword1">
+          </div>
+          <div class="mb-3 form-check">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="form-check-label" for="exampleCheck1">Check me out</label>
+          </div>
+          <button type="button" class="btn btn-outline-danger" data-bs-toggle="modal" data-bs-target="#exampleModal">Invia</button>               
+          
+        </form>
+        
+        
+        
+      </section>
+      
+      
+      <!-- accordion -->
+      
+
+      <section class="container my-5">
+        <div class="row">
+          
+          <div class="col-12">
+
+            <h2>Domande frequenti</h2>
+            
+            <div class="accordion" id="accordionExample">
+              <div class="accordion-item bg-warning">
+                <h2 class="accordion-header">
+                  <button class="accordion-button bg-warning-subtle" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    Come faccio a ricevere aggiornamenti in tempo reale?
+                  </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                   Ti basta registrarti sul sito e selezionare l'opzione <em>Tienimi aggiornato</em>.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item bg-warning">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed bg-warning-subtle" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    Il servizo è a pagamento?
+                  </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse " data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    Assolutamente no, tutte le informazioni riportate sul Blog sono gratuite e accesibili da chiunque.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item bg-warning">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed bg-warning-subtle" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    Come faccio a fare una donazione libera?
+                  </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    E' sufficiente cliaccare nell'apposita sezione <em>Dona adesso</em> Grazie.
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+          </div>
+          
+        </div>
+        
+        
+      </section>
+      
+      
+      
+      
+      <!-- footer -->
+      <footer class="container-fluid">
+        <div class="row bg-warning mt-5 justify-content-around footer-cst align-items-center">
+          <div class="col-12 col-md-6" >
+            <h4 class="text-footer">CineBlog è un progetto di David Paparo Webdeveloper</h4>
+            <ul>
+              <li>P.Iva 12345678</li>
+              <li><i class="bi bi-telephone"></i> 3471234567</li>
+              <li>via Marco Polo, 110 - Catania</li>
+            </ul>
+          </div>
+          <div class="col-12 col-md-6">
+            <h4 class="text-footer">Seguici sui Social</h4>
+            <ul>
+              <li>link <i class="bi bi-facebook"></i></li>
+              <li>link <i class="bi bi-youtube"></i></li>
+              <li>link <i class="bi bi-instagram"></i></li>
+            </ul>
+            
+          </div>
+          
+        </div>
+        
+        
+        
+        
+      </footer>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      <!-- Modal -->
+      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel">Grazie per averci contattato</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              A breve verrai contattato da un nostro consulente 
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Bootstrap JS -->
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+      
+      
+    </body>
+    </html>

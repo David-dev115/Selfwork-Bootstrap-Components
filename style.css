@@ -1,0 +1,58 @@
+
+
+body{
+    
+    background-color: rgb(242, 79, 36);
+}
+
+
+.img-logo{
+    height: 70px;
+    width: 70px;
+    background-image: url(./media/1-header.jpg);
+    background-size: cover;
+    border-radius: 50%;
+    border: 3px solid black;
+}
+
+
+/* .bg-warning{
+background-color: rgb(254, 228, 195) !important;
+} */
+
+
+header{
+    background:linear-gradient(transparent, rgb(242, 79, 36)), url(./media/1-header.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    justify-content: space-around;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.footer-cst{
+    min-height: 20vh;
+}
+
+.text-footer{
+    font-size: 16px;
+}
+
+.schede-cst{
+    height: 55vh !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.a-nav{
+    margin-left: 30px;
+}
+
+.a-nav:hover{
+    border-bottom: solid black 2px;
+    transform: scale(1.2);
+}
+
